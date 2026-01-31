@@ -12,6 +12,8 @@ services:
       - N8N_BASIC_AUTH_PASSWORD=tucontraseña
     volumes:
       - n8n-data:/home/node/.n8n
+      - ./fonts:/fonts
 
 volumes:
   n8n-data:
+
